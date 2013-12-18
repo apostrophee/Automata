@@ -1,6 +1,6 @@
 /* 
  * CYK algorithm for Context Free Language
- * Author: Chenguang Zhu
+ * Author: Chenguang Zhu, Signe Rüsch
  * CS154, Stanford University
  */
 
