@@ -1,6 +1,6 @@
 /* 
  * Converting regular expression into Epsilon-NFA
- * Author: Chenguang Zhu
+ * Author: Chenguang Zhu, Signe Rüsch
  * CS154, Stanford University
  */
 
