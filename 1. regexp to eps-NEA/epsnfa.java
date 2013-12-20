@@ -84,12 +84,12 @@ public class epsnfa{
 		int [] st=new int[2];
 		//Please fill in the program here
 		int startState = incCapacity();
-        int finalState = incCapacity();
-        addEdge(startState, epssymbol, s);
-        addEdge(startState, epssymbol, finalState);
-        addEdge(t, epssymbol, s);
-        addEdge(t, epssymbol, finalState);
-        st[0] = startState;
+        	int finalState = incCapacity();
+        	addEdge(startState, epssymbol, s);
+        	addEdge(startState, epssymbol, finalState);
+        	addEdge(t, epssymbol, s);
+        	addEdge(t, epssymbol, finalState);
+        	st[0] = startState;
 		st[1] = finalState;
 		return st;
 	}
