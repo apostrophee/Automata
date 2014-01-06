@@ -50,7 +50,6 @@ public class epsnfa{
 	int[] union(int s1,int t1,int s2,int t2)
 	{
 		int [] st=new int[2];
-		//Please fill in the program here
 		int newStartState=incCapacity();
 		addEdge(newStartState,epssymbol,s1);
 		addEdge(newStartState,epssymbol,s2);
@@ -69,7 +68,6 @@ public class epsnfa{
 	int[] concat(int s1,int t1,int s2,int t2)
 	{
 		int [] st=new int[2];
-		//Please fill in the program here
 		addEdge(t1,epssymbol,s2);
 		
 		st[0] = s1;
@@ -82,7 +80,6 @@ public class epsnfa{
 	int[] clo(int s,int t)
 	{
 		int [] st=new int[2];
-		//Please fill in the program here
 		int startState = incCapacity();
         	int finalState = incCapacity();
         	addEdge(startState, epssymbol, s);
