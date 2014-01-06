@@ -37,7 +37,6 @@ public class CYK{
 	{
 		int L = w.length;
 		X=new boolean [L+1][L+1][VarNum];
-		//Fill in your program here
 		for(int i = 0; i < L; i++) {
 			if(existProd(0,w[i],-1)) {
 				X[i][i][0] = true;
